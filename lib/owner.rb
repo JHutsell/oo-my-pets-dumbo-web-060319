@@ -13,7 +13,7 @@ class Owner
   end
   
   def say_species
-    puts "I am a #{@species}."
+    "I am a #{@species}."
   end
   
   def buy_fish(name)
@@ -48,7 +48,7 @@ class Owner
   end
   
   def list_pets 
-    puts "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s). "
+    "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s). "
   end
   
   
